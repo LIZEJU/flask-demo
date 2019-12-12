@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Flask Cookies</title>
 </head>
-<body>
-$END$
-</body>
+   <body>
+      <form action = "/setcookie" method = "POST">
+         <p><h3>Enter userID</h3></p>
+         <p><input type = 'text' name = 'name'/></p>
+         <p><input type = 'submit' value = '提交'/></p>
+      </form>
+        <h1><a href="/getcookie">获取cookie</a></h1>
+   </body>
 </html>

@@ -5,8 +5,8 @@
     <title>Title</title>
 </head>
 <body>
-<h1>{{ username }}</h1>
-<h2><a href="/">首页</a></h2>
-
+{% for i in file_lists %}
+    <p><a href="/files/{{i}}">{{i|file_split}}</a></p>
+{% endfor %}
 </body>
 </html>

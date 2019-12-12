@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <table>
+        <tr>
+            <td>name</td>
+            <td>teacher</td>
+            <td>user_count</td>
+            <td>price</td>
+            <td>lab</td>
+            <td>is_private</td>
+            <td>is_member_course</td>
+            <td>tags</td>
+        </tr>
+        <tr>
+            <td>{{ course.name }}</td>
+            <td>{{ course.teacher.name }}</td>
+            <td>{{ course.user_count }}</td>
+            <td>{{ course.price }}</td>
+            <td>{{ course.lab }}</td>
+            <td>{{ course.is_private }}</td>
+            <td>{{ course.is_member_course }}</td>
+            <td>{% for i in course.tags%}
+                    {{ i }}
+                {% endfor%}
+            </td>
+        </tr>
+    </table>
+</div>
+
+<a href="/course">course</a>
+
+</body>
+</html>

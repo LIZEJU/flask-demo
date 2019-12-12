@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <table>
+        <tr>
+            <td>python</td>
+            <td>java</td>
+            <td>bigdata</td>
+            <td>teacher</td>
+            <td>is_unique</td>
+            <td>has_tag</td>
+            <td>tags</td>
+        </tr>
+        <tr>
+            <td>{{ course.python }}</td>
+            <td>{{ course.java }}</td>
+            <td>{{ course.bigdata }}</td>
+            <td>{{ course.teacher }}</td>
+            <td>{{ course.is_unique }}</td>
+            <td>{{ course.has_tag }}</td>
+            <td>{% for i in course.tags%}
+                    {{ i }}
+                {% endfor%}
+            </td>
+        </tr>
+    </table>
+</div>
+
+<a href="/">首页</a>
+
+</body>
+</html>
