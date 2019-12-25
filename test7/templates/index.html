@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content%}
+<ul>
+ {% for file in data %}
+ <li class="bg-success">
+   <a href="{{ url_for('file', file_id=file.id) }}" target="_blank">{{ file.name }}</a>
+     tags:
+   {% for tag in file.tags %}
+     <span>{{ tag }}</span>
+   {% endfor %}
+ </li>
+ {% endfor %}
+</ul>
+
+{% endblock %}
