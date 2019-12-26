@@ -14,5 +14,11 @@ def detail(name):
 
     data = get_now_data(name)
     return  render_template('detail.html',data=data)
+
+@app.route('/list')
+def list():
+
+    data = select_gupiao_list()
+    return  render_template('detail.html',data=data)
 if __name__ == '__main__':
     app.run(debug=True)

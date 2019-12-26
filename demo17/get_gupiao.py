@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 db = MongoClient(host='127.0.0.1', port=27017).gupiao
 def select_gupiao_list():
-    data = db.gupiao.find({}, {"_id": 0, "name": 1, "code": 1})
+    data = db.gupiao.find({}).limit(2)
 
     return data
 # 去重
@@ -41,8 +41,9 @@ def get_now_data(name):
                         'name': name,
                     },
                 ]
-            }
-        },
+            },
+
+        },{'$limit':3}
     ]
 
     results = list(db.gupiao.aggregate(pipeline=pipeline))

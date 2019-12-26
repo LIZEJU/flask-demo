@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a01faa-2ab7-415d-9c2f-32643d68b0c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo17/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo17/get_gupiao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo17/gupiao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo17/gupiao_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo17/templates/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo17/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo17/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo17/get_gupiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo17/get_gupiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo17/gupiao_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo17/gupiao_app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +16,7 @@
     <SUITE FILE_PATH="coverage/flask_demo$web_run.coverage" NAME="web_run Coverage Results" MODIFIED="1577331709836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
     <SUITE FILE_PATH="coverage/flask_demo$get_gupiao.coverage" NAME="get_gupiao Coverage Results" MODIFIED="1577354356880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1577267841848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo13" />
-    <SUITE FILE_PATH="coverage/flask_demo$gupiao_app.coverage" NAME="gupiao_app Coverage Results" MODIFIED="1577354397957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
+    <SUITE FILE_PATH="coverage/flask_demo$gupiao_app.coverage" NAME="gupiao_app Coverage Results" MODIFIED="1577355787575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1577351715405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$ele.coverage" NAME="ele Coverage Results" MODIFIED="1577331457829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
     <SUITE FILE_PATH="coverage/flask_demo$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1577283234094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test7" />
@@ -71,7 +65,7 @@
           <entry key="css" value="2" />
           <entry key="html" value="16" />
           <entry key="json" value="3" />
-          <entry key="py" value="21" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -79,36 +73,34 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="16" />
           <entry key="JSON" value="3" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="369" />
-          <entry key="py" value="3733" />
+          <entry key="py" value="3751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="369" />
-          <entry key="Python" value="3733" />
+          <entry key="Python" value="3751" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo17/gupiao.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo17/get_gupiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="240">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#2047#2599#0" />
-                <marker date="1577352848785" expanded="true" signature="100:101" ph="..." />
-                <marker date="1577352848785" expanded="true" signature="2061:3712" ph="..." />
-                <marker date="1577352848785" expanded="true" signature="2738:3712" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1577355785806" expanded="true" signature="170:171" ph="..." />
+                <marker date="1577355785806" expanded="true" signature="356:1269" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,50 +109,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo17/gupiao_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="88">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1577354396907" expanded="true" signature="172:173" ph="..." />
-                <marker date="1577354396907" expanded="true" signature="172:178" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo17/get_gupiao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1577354355791" expanded="true" signature="170:171" ph="..." />
-                <marker date="1577354355791" expanded="true" signature="381:1280" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo17/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="201" selection-start-line="12" selection-start-column="201" selection-end-line="12" selection-end-column="201" />
-              <folding>
-                <element signature="n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo17/templates/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-              <folding>
-                <element signature="n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <marker date="1577355698721" expanded="true" signature="172:173" ph="..." />
+                <marker date="1577355698721" expanded="true" signature="172:178" ph="..." />
               </folding>
             </state>
           </provider>
@@ -242,10 +196,10 @@
         <option value="$PROJECT_DIR$/demo16/web_run.py" />
         <option value="$PROJECT_DIR$/demo17/test.py" />
         <option value="$PROJECT_DIR$/demo17/gupiao.py" />
-        <option value="$PROJECT_DIR$/demo17/get_gupiao.py" />
-        <option value="$PROJECT_DIR$/demo17/gupiao_app.py" />
         <option value="$PROJECT_DIR$/demo17/templates/index.html" />
         <option value="$PROJECT_DIR$/demo17/templates/detail.html" />
+        <option value="$PROJECT_DIR$/demo17/gupiao_app.py" />
+        <option value="$PROJECT_DIR$/demo17/get_gupiao.py" />
       </list>
     </option>
   </component>
@@ -281,12 +235,6 @@
               <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo17" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,8 +393,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gupiao" />
         <item itemvalue="Python.gupiao_app" />
+        <item itemvalue="Python.gupiao" />
         <item itemvalue="Python.get_gupiao" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.web_run" />
@@ -499,12 +447,12 @@
     <frame x="243" y="26" width="1386" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23152338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23152338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46869984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46869984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39807382" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -908,44 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo17/gupiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#2047#2599#0" />
-            <marker date="1577352848785" expanded="true" signature="100:101" ph="..." />
-            <marker date="1577352848785" expanded="true" signature="2061:3712" ph="..." />
-            <marker date="1577352848785" expanded="true" signature="2738:3712" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo17/gupiao_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1577354396907" expanded="true" signature="172:173" ph="..." />
-            <marker date="1577354396907" expanded="true" signature="172:178" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo17/get_gupiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1577354355791" expanded="true" signature="170:171" ph="..." />
-            <marker date="1577354355791" expanded="true" signature="381:1280" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo17/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -958,10 +868,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo17/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="36">
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo17/gupiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1577352848785" expanded="true" signature="100:101" ph="..." />
+            <marker date="1577352848785" expanded="true" signature="2061:3712" ph="..." />
+            <marker date="1577352848785" expanded="true" signature="2738:3712" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo17/gupiao_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1577355698721" expanded="true" signature="172:173" ph="..." />
+            <marker date="1577355698721" expanded="true" signature="172:178" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo17/get_gupiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1577355785806" expanded="true" signature="170:171" ph="..." />
+            <marker date="1577355785806" expanded="true" signature="356:1269" ph="..." />
           </folding>
         </state>
       </provider>
