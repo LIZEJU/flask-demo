@@ -69,7 +69,7 @@ def select_now_data():
     # print(datetime.now().strftime('%Y-%m-%d'))
     return results
 
-def insert_now_data(datas):
+def insert_now_data(datas,count):
     # 存储数据：mongo
     # 股票的名字为索引存储数据，以日期为顺序
     from pymongo import MongoClient
@@ -82,9 +82,12 @@ def insert_now_data(datas):
         now_time = re.search('.*?(\d+:\d+:\d+)', now_time)[1]
         if datetime.strptime(now_time,'%H:%M:%S') > datetime.strptime(s,'%H:%M'):
             print('股票交易下班了')
+            count += 1
             continue
         item = db.gupiao.find_one({'name': data['name'], "now_time": data['now_time']})
-
+        if count > 10:
+            time.sleep(3600*18)
+            continue
         if item:
             print('mongo 没有插入数据')
             pass
@@ -115,13 +118,19 @@ def qingxi_data(data):
 
 if __name__ == '__main__':
     # pn = int(input('数据要爬取数据的页数'))
-    # for pn in range(0,20):
-    #     # print(pn+1)
-    #     data = next(get_data(pn+1))
-    #     handler_data(data)
-        # print(next(data))
-    data = next(get_data(1))
-    data = handler_data(data)
-    gupiao_list = qingxi_data(data)
-    insert_now_data(gupiao_list)
-    select_now_data()
+    import  time,random
+    count = 0
+    while True:
+
+        for pn in range(0, 20):
+            # print(pn+1)
+            data = next(get_data(pn + 1))
+            #     handler_data(data)
+            # print(next(data))
+            # data = next(get_data(1))
+            data = handler_data(data)
+            gupiao_list = qingxi_data(data)
+            insert_now_data(gupiao_list,count)
+            time.sleep(random.randint(1,10))
+        select_now_data()
+        time.sleep(3600)

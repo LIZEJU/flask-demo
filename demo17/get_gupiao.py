@@ -4,16 +4,16 @@ from pymongo import MongoClient
 
 db = MongoClient(host='127.0.0.1', port=27017).gupiao
 def select_gupiao_list():
-    data = db.gupiao.find({}).limit(2)
+    data = db.gupiao.find({}).sort("now_time",-1)
+    count = db.gupiao.count()
 
-    return data
+    return data , count
 # 去重
 def select_distinct_data():
 
     data = db.gupiao.distinct('name')
-    print(data)
-    return  data
-
+    count = len(data)
+    return  data , count
 def get_now_data(name):
 
     from pymongo import MongoClient
@@ -43,7 +43,7 @@ def get_now_data(name):
                 ]
             },
 
-        },{'$limit':3}
+        },
     ]
 
     results = list(db.gupiao.aggregate(pipeline=pipeline))

@@ -7,8 +7,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-    data = select_distinct_data()
-    return  render_template('index.html',data=data)
+    data,count = select_distinct_data()
+    return  render_template('index.html',data=data,count=count)
 @app.route('/detail/<string:name>')
 def detail(name):
 
@@ -18,7 +18,7 @@ def detail(name):
 @app.route('/list')
 def list():
 
-    data = select_gupiao_list()
-    return  render_template('detail.html',data=data)
+    data,count = select_gupiao_list()
+    return  render_template('detail.html',data=data,count=count)
 if __name__ == '__main__':
     app.run(debug=True)
