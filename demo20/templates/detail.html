@@ -15,24 +15,21 @@
 <body>
 <div class="panel panel-default">
   <!-- Default panel contents -->
-  <div class="panel-heading">股票</div>
+  <div class="panel-heading">详情数据</div>
+
   <div class="panel-body">
-    <p>股票的数量：{{count}}</p>
+    <p>...</p>
   </div>
-<div class="container">
+
   <!-- Table -->
   <table class="table">
       <tr>
-          <td>序号</td>
-          <td>股票名称</td>
-
+          <h1>{{data.title}}</h1>
       </tr>
-      {% for da in data %}
       <tr>
-            <td>{{ loop.index }}</td>
-            <td><a href="/detail/{{ da._id }}">{{ da._id }}</a></td>
+          <img src="{{ data.img_url }} "></img>
       </tr>
-      {% endfor %}
+
   </table>
 </div>
 

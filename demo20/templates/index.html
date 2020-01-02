@@ -15,22 +15,25 @@
 <body>
 <div class="panel panel-default">
   <!-- Default panel contents -->
-  <div class="panel-heading">股票</div>
+  <div class="panel-heading">美女</div>
   <div class="panel-body">
-    <p>股票的数量：{{count}}</p>
+    <p>数量：{{count}}</p>
   </div>
 <div class="container">
   <!-- Table -->
   <table class="table">
       <tr>
           <td>序号</td>
-          <td>股票名称</td>
+          <td>美女名称</td>
+          <td>美女图片</td>
 
       </tr>
       {% for da in data %}
       <tr>
             <td>{{ loop.index }}</td>
-            <td><a href="/detail/{{ da._id }}">{{ da._id }}</a></td>
+            <td><a href="/detail/{{ da.title }}">{{ da.title }}</a></td>
+            <td><a href="/detail/{{ da.title }}"><img src="{{ da.img_url }} "></img></a></td>
+
       </tr>
       {% endfor %}
   </table>

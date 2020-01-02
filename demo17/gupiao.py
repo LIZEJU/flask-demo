@@ -127,7 +127,9 @@ if __name__ == '__main__':
             data = next(get_data(pn + 1))
             #     handler_data(data)
             # print(next(data))
-            # data = next(get_data(1))
+            # data = next(get
+            #
+            # _data(1))
             data = handler_data(data)
             gupiao_list = qingxi_data(data)
             insert_now_data(gupiao_list,count)
