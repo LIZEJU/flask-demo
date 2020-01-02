@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a01faa-2ab7-415d-9c2f-32643d68b0c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo21/config/get_city.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo21/config/emailConf.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo21/config/emailConf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo21/test/查询车票信息.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo21/test/查询车票信息.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +24,14 @@
     <SUITE FILE_PATH="coverage/flask_demo$gupiao_app.coverage" NAME="gupiao_app Coverage Results" MODIFIED="1577764781332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1577593212538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
     <SUITE FILE_PATH="coverage/flask_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1577351715405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
-    <SUITE FILE_PATH="coverage/flask_demo$.coverage" NAME="查询车票信息 Coverage Results" MODIFIED="1577949151857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/test" />
+    <SUITE FILE_PATH="coverage/flask_demo$.coverage" NAME="查询车票信息 Coverage Results" MODIFIED="1577956340162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/test" />
     <SUITE FILE_PATH="coverage/flask_demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1577632971732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo20" />
     <SUITE FILE_PATH="coverage/flask_demo$ele.coverage" NAME="ele Coverage Results" MODIFIED="1577331457829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
     <SUITE FILE_PATH="coverage/flask_demo$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1577615393811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
     <SUITE FILE_PATH="coverage/flask_demo$select_ticket_info.coverage" NAME="select_ticket_info Coverage Results" MODIFIED="1577807023517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/init" />
     <SUITE FILE_PATH="coverage/flask_demo$get_city.coverage" NAME="get_city Coverage Results" MODIFIED="1577952012061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
-    <SUITE FILE_PATH="coverage/flask_demo$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1577283234094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test7" />
     <SUITE FILE_PATH="coverage/flask_demo$emailConf.coverage" NAME="emailConf Coverage Results" MODIFIED="1577947742702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
+    <SUITE FILE_PATH="coverage/flask_demo$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1577952201921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test7" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1611713046">
@@ -81,9 +81,9 @@
           <entry key="csv" value="15" />
           <entry key="html" value="27" />
           <entry key="json" value="3" />
-          <entry key="py" value="102" />
+          <entry key="py" value="108" />
           <entry key="pyi" value="1" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -92,15 +92,15 @@
           <entry key="CSV" value="6" />
           <entry key="HTML" value="27" />
           <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="102" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="108" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="494" />
-          <entry key="py" value="9701" />
+          <entry key="py" value="10337" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
@@ -108,7 +108,7 @@
         <counts>
           <entry key="HTML" value="494" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="9701" />
+          <entry key="Python" value="10337" />
         </counts>
       </usages-collector>
     </session>
@@ -116,55 +116,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo21/config/get_city.py">
+        <entry file="file://$PROJECT_DIR$/demo21/test/查询车票信息.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo21/config/city.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="7" selection-start-column="4" selection-end-column="7" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo20/demo1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="133">
+              <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1577632968252" expanded="true" signature="162:167" ph="..." />
-                <marker date="1577632968252" expanded="true" signature="1549:1780" ph="..." />
-                <marker date="1577632968252" expanded="true" signature="1796:1801" ph="..." />
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1577956338702" expanded="true" signature="4801:4931" ph="..." />
+                <marker date="1577956338702" expanded="true" signature="5108:5258" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo21/config/city.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo21/config/TickerConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -172,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo21/config/emailConf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="-323">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -182,22 +142,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo21/station_name.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo21/TickerConfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo21/test/查询车票信息.py">
+        <entry file="file://$PROJECT_DIR$/demo21/config/get_city.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="52" column="39" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -285,9 +247,9 @@
         <option value="$PROJECT_DIR$/demo21/init/select_ticket_info.py" />
         <option value="$PROJECT_DIR$/demo21/station_name.txt" />
         <option value="$PROJECT_DIR$/demo21/config/TickerConfig.py" />
+        <option value="$PROJECT_DIR$/demo21/config/get_city.py" />
         <option value="$PROJECT_DIR$/demo21/config/emailConf.py" />
         <option value="$PROJECT_DIR$/demo21/test/查询车票信息.py" />
-        <option value="$PROJECT_DIR$/demo21/config/get_city.py" />
       </list>
     </option>
   </component>
@@ -298,8 +260,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-108" />
-    <option name="y" value="46" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1370" />
     <option name="height" value="693" />
   </component>
@@ -317,11 +279,6 @@
             <path>
               <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -378,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_city">
+  <component name="RunManager" selected="Python.查询车票信息">
     <configuration name="查询车票信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,6 +350,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo21/test/查询车票信息.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test7/demo8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -445,28 +424,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo21" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo21/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="select_ticket_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -492,17 +449,17 @@
     <list>
       <item itemvalue="Python.select_ticket_info" />
       <item itemvalue="Python.emailConf" />
-      <item itemvalue="Python.run" />
       <item itemvalue="Python.查询车票信息" />
       <item itemvalue="Python.get_city" />
+      <item itemvalue="Python.demo8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_city" />
         <item itemvalue="Python.查询车票信息" />
+        <item itemvalue="Python.demo8" />
+        <item itemvalue="Python.get_city" />
         <item itemvalue="Python.emailConf" />
         <item itemvalue="Python.select_ticket_info" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +514,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.68360656" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44590163" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40233722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,9 +588,6 @@
     <SUITE FILE_PATH="coverage/1$app__4_.coverage" NAME="app (4) Coverage Results" MODIFIED="1575622227604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo16/static/bootstrap4-business-tycoon.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo16/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -904,9 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo21/station_name.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo21/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -921,13 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo21/TickerConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="88" column="1" lean-forward="true" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -961,26 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo21/config/emailConf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo21/test/查询车票信息.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo21/config/city.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -1001,10 +925,49 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test7/demo8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo21/config/get_city.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+        <state relative-caret-position="24">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo21/station_name.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo21/TickerConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo21/config/emailConf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo21/test/查询车票信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="133" column="42" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1577956338702" expanded="true" signature="4801:4931" ph="..." />
+            <marker date="1577956338702" expanded="true" signature="5108:5258" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

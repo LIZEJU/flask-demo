@@ -1,3 +1,4 @@
+from demo21.config.emailConf import sendEmail
 import requests
 import  os
 def station_table( from_station, to_station):
@@ -10,9 +11,9 @@ def station_table( from_station, to_station):
     url = 'https://kyfw.12306.cn/otn/leftTicket/queryZ'
     # 参数： get方法
     params = {
-        "leftTicketDTO.train_date": "2020-01-09",
-        "leftTicketDTO.from_station": "SZQ",
-        "leftTicketDTO.to_station": "HZH",
+        "leftTicketDTO.train_date": date_time,
+        "leftTicketDTO.from_station": get_city_code(from_station,to_station)[0],
+        "leftTicketDTO.to_station": get_city_code(from_station,to_station)[1],
         "purpose_codes": "ADULT",
     }
     headers = {
@@ -38,29 +39,30 @@ def station_table( from_station, to_station):
     text_1 = json.loads(response.text)
     str_1 = ''.join(text_1['data']['result'])
     list_1 = text_1['data']['result']
-    path = os.path.join(os.path.dirname(__file__), '../station_name.txt')
+    # path = os.path.join(os.path.dirname(__file__), '../station_name.txt')
     # for i in list_1:
-    #     # print(i)
+    #     print(i)
     #     with open(path,'a',encoding='utf8')as f:
     #
     #         f.write('@'+i+'\n')
 
-    with open(path,'r',encoding='utf8') as f:
-        info = f.read().split('@')
+    # with open(path,'r',encoding='utf8') as f:
+    #     info = f.read().split('@')
     # print(info)
     # count = 0
     result = []
-    for i in info:
+    for i in  list_1:
         # print(i.strip())
         # count += 1
         # print(count)
         result.append(i.strip().split('|'))
     # print(result)
     r_data = []
+    result1 = []
     for i in result:
         if i is None or i == ['']:
-           result.remove(i)
-           continue
+            result.remove(i)
+            continue
         # print(i)
         # if 'D2294' in i :
         #     code = i.index('D2294')
@@ -88,12 +90,49 @@ def station_table( from_station, to_station):
         start_time = i[8]
         end_time = i[9]
         total_time = i[10]
-        if i[30] == '有' or type(er_deng) == 'int':
-            from demo21.config.emailConf import sendEmail
-            print('发送邮件')
-            msg1 = 'code:{},tickent_num:{}：start：{}，end：{}：start_time：{},end_time:{},total_time:{}'.format(code,er_deng,start,end,start_time,end_time,total_time)
-            # print(msg1)
-            sendEmail(msg1)
 
+        if i[30] == '有' or type(er_deng) == 'int':
+            print('发送邮件')
+            msg1 = 'code:{},tickent_num:{}：start：{}，end：{}：start_time：{},end_time:{},total_time:{}'.format(code,
+                                                                                                           er_deng,
+                                                                                                           get_code_city(
+                                                                                                               start),
+                                                                                                           get_code_city(
+                                                                                                               end),
+                                                                                                           start_time,
+                                                                                                           end_time,
+                                                                                                           total_time)
+            # print(msg1)
+            msg = '<p>{}</p>'.format(msg1)
+            # sendEmail(msg1)
+            result1.append(msg)
+    if result1 != []:
+        print(result1)
+        sendEmail(''.join(result1),'3265218750@qq.com')
+
+def get_city_code(from_station,to_station):
+    import pymongo
+    mo = pymongo.MongoClient().city
+    code1 = mo.citymap.find_one({'name':from_station},{'_id':0,'code':1})
+    code2 = mo.citymap.find_one({'name':to_station},{'_id':0,'code':1})
+
+    result = [code1['code'],code2['code']]
+    print(result)
+    return result
+
+def get_code_city(code):
+    import pymongo
+    mo = pymongo.MongoClient().city
+    name = mo.citymap.find_one({'code': code}, {'_id': 0, 'name': 1})
+    return name['name']
 if __name__ == '__main__':
-    station_table('深圳','杭州')
+    import  random
+    # from_station = input('请输入起始地址')
+    # to_station = input('请输入终点地址')
+    # date_time = input('请输入要查询火车票的日期：yyyyxxzz')
+    # receiver = input('请输入接受邮件的邮箱：》》')
+    list_city = ['北京','杭州','齐齐哈尔','上海','衡水']
+    from_station = random.choice(list_city)
+    to_station = '沈阳'
+    date_time = '2020-01-20'
+    station_table(from_station,to_station)

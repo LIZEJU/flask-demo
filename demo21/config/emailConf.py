@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 import smtplib
 
 
-def sendEmail(msg):
+def sendEmail(msg,receiver):
     """
     邮件通知
     :param str: email content
@@ -16,7 +16,8 @@ def sendEmail(msg):
     try:
         if TickerConfig.EMAIL_CONF["IS_MAIL"]:
             sender = TickerConfig.EMAIL_CONF["email"]
-            receiver = TickerConfig.EMAIL_CONF["notice_email_list"]
+            # receiver = TickerConfig.EMAIL_CONF["notice_email_list"]
+            receiver = receiver
             subject = '火车票查询'
             username = TickerConfig.EMAIL_CONF["username"]
             password = TickerConfig.EMAIL_CONF["password"]
