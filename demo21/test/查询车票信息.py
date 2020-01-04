@@ -1,7 +1,7 @@
 from demo21.config.emailConf import sendEmail
 import requests
 import  os
-def station_table( from_station, to_station):
+def station_table( from_station, to_station,receiver):
     """
     查询车层的信息
     :param station:
@@ -108,7 +108,7 @@ def station_table( from_station, to_station):
             result1.append(msg)
     if result1 != []:
         print(result1)
-        sendEmail(''.join(result1),'3265218750@qq.com')
+        sendEmail(''.join(result1),receiver)
 
 def get_city_code(from_station,to_station):
     import pymongo
@@ -135,4 +135,5 @@ if __name__ == '__main__':
     from_station = random.choice(list_city)
     to_station = '沈阳'
     date_time = '2020-01-20'
-    station_table(from_station,to_station)
+    receiver = '3265218750@qq.com'
+    station_table(from_station,to_station,receiver)
