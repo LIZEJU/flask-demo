@@ -37,6 +37,6 @@ print(df.iloc[0])
 print(df.loc[:,['B','C','D']])
 print(df.loc[['a','d'],['B','D']])
 # loc 第一个参数代表的是行，第二个参数代表的是列
-print(df.loc['a','A'])
-# print(df.loc['A','a'])
+print(df.loc[['a'],['A']])
+# print(df.loc[['A'],['a']])
 print(df.loc['b':'d','A':'C'])
