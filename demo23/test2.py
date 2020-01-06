@@ -19,6 +19,29 @@ def analysis(file, user_id):
     # print(count)
     # print(minutes)
     return times, minutes
+def analysis_raw(file, user_id):
+    """从 file json 文件中统计出 user_id 指定用户的学习数据, 纯 python 实现
+
+    Args:
+        file(str): json file name
+        user_id(int): user id
+    """
+
+    times = 0
+    minutes = 0
+
+    try:
+        f = open(file)
+        records = json.load(f)
+        for item in records:
+            if item['user_id'] != user_id:
+                continue
+            times += 1
+            minutes += item['minutes']
+        f.close()
+    except:
+        pass
+    return times, minutes
 
 if __name__ == '__main__':
     path = os.path.join(os.path.abspath(os.path.dirname(__file__)),'user_study.json')
