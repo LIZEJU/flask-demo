@@ -21,26 +21,26 @@ A    6
 B    6
 C    6
 '''
-print(df1.max())
+print(df1.max()) # 每一列的最大值
 '''
 A    6
 B    7
 C    8
 '''
-print(df1.min())
+print(df1.min()) # 每一列的最小值
 '''
 A    0
 B    1
 C    2
 '''
 
-print(df1.apply(f,axis=1))
+print(df1.apply(f,axis=1)) # 每一行的最大值和最小值之差
 '''
 a    2
 b    2
 c    2
 '''
-print(df1.apply(f,axis=0))
+print(df1.apply(f,axis=0)) # 每一列的最大值和最小值之差，默认每一列
 '''
 A    6
 B    6
@@ -52,7 +52,7 @@ axis=1 参数，统计出了每行的极差，
 方法，而对于 Series 数据可以使用 s.map 方法：
 '''
 
-print(df1.applymap(lambda x:x+1))
+print(df1.applymap(lambda x:x+1)) # 应用到每一个元素
 '''
    A  B  C
 a  1  2  3
@@ -60,3 +60,5 @@ b  4  5  6
 c  7  8  9
 '''
 # git config remote.origin.url 'git://github.com/LIZEJU/flask-demo.git'
+
+print(df1.apply(lambda x:x+1))
