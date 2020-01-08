@@ -25,7 +25,7 @@ def quarter_volume():
     2. 转换为时间序列
     3. 按季度重采样并排序
     '''
-    ax.plot(second_volume.index, second_volume)
+    ax.plot(s.index, s)
     plt.savefig('4.png')
     plt.show()
     print(second_volume)
