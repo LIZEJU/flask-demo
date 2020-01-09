@@ -6,14 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a01faa-2ab7-415d-9c2f-32643d68b0c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo24/test10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo24/test11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo24/test9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo25/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo25/test1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo24/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo24/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo24/test8.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo24/test8.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,51 +16,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/flask_demo$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1577614732441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
+    <SUITE FILE_PATH="coverage/flask_demo$test7.coverage" NAME="test7 Coverage Results" MODIFIED="1578410382021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$test8__1_.coverage" NAME="test8 (1) Coverage Results" MODIFIED="1578477135501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578415360744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$get_city.coverage" NAME="get_city Coverage Results" MODIFIED="1577952012061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
+    <SUITE FILE_PATH="coverage/flask_demo$ele.coverage" NAME="ele Coverage Results" MODIFIED="1577331457829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
+    <SUITE FILE_PATH="coverage/flask_demo$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1578392696514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$emailConf.coverage" NAME="emailConf Coverage Results" MODIFIED="1577947742702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
+    <SUITE FILE_PATH="coverage/flask_demo$demo_app.coverage" NAME="demo_app Coverage Results" MODIFIED="1577632505257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo20" />
+    <SUITE FILE_PATH="coverage/flask_demo$test1__1_.coverage" NAME="test1 (1) Coverage Results" MODIFIED="1578548321985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo25" />
+    <SUITE FILE_PATH="coverage/flask_demo$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1578384049789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1577351715405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
+    <SUITE FILE_PATH="coverage/flask_demo$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1578392734640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1577952201921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test7" />
+    <SUITE FILE_PATH="coverage/flask_demo$web_run.coverage" NAME="web_run Coverage Results" MODIFIED="1577331709836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
+    <SUITE FILE_PATH="coverage/flask_demo$test10.coverage" NAME="test10 Coverage Results" MODIFIED="1578478980632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$run.coverage" NAME="run Coverage Results" MODIFIED="1577783349577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21" />
     <SUITE FILE_PATH="coverage/flask_demo$test8.coverage" NAME="test8 Coverage Results" MODIFIED="1578415345895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo23" />
     <SUITE FILE_PATH="coverage/flask_demo$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1577267841848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo13" />
-    <SUITE FILE_PATH="coverage/flask_demo$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1578384049789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1578392734640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$web_run.coverage" NAME="web_run Coverage Results" MODIFIED="1577331709836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
-    <SUITE FILE_PATH="coverage/flask_demo$get_gupiao.coverage" NAME="get_gupiao Coverage Results" MODIFIED="1577413255316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
-    <SUITE FILE_PATH="coverage/flask_demo$gupiao_app.coverage" NAME="gupiao_app Coverage Results" MODIFIED="1577764781332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
+    <SUITE FILE_PATH="coverage/flask_demo$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1577593212538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
     <SUITE FILE_PATH="coverage/flask_demo$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1578410011337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
     <SUITE FILE_PATH="coverage/flask_demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1577632971732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo20" />
-    <SUITE FILE_PATH="coverage/flask_demo$ele.coverage" NAME="ele Coverage Results" MODIFIED="1577331457829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
     <SUITE FILE_PATH="coverage/flask_demo$demo4.coverage" NAME="demo4 Coverage Results" MODIFIED="1577615393811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
+    <SUITE FILE_PATH="coverage/flask_demo$test9.coverage" NAME="test9 Coverage Results" MODIFIED="1578478065036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
+    <SUITE FILE_PATH="coverage/flask_demo$get_gupiao.coverage" NAME="get_gupiao Coverage Results" MODIFIED="1577413255316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$test11.coverage" NAME="test11 Coverage Results" MODIFIED="1578479685508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
     <SUITE FILE_PATH="coverage/flask_demo$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1578384068827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1577614732441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
-    <SUITE FILE_PATH="coverage/flask_demo$run.coverage" NAME="run Coverage Results" MODIFIED="1577783349577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21" />
-    <SUITE FILE_PATH="coverage/flask_demo$test8__1_.coverage" NAME="test8 (1) Coverage Results" MODIFIED="1578477135501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1578392696514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$test9.coverage" NAME="test9 Coverage Results" MODIFIED="1578478065036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$demo_app.coverage" NAME="demo_app Coverage Results" MODIFIED="1577632505257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo20" />
-    <SUITE FILE_PATH="coverage/flask_demo$gupiao.coverage" NAME="gupiao Coverage Results" MODIFIED="1577763977405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
-    <SUITE FILE_PATH="coverage/flask_demo$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578415360744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$test10.coverage" NAME="test10 Coverage Results" MODIFIED="1578478980632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1577593212538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
-    <SUITE FILE_PATH="coverage/flask_demo$test.coverage" NAME="test Coverage Results" MODIFIED="1577351715405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
-    <SUITE FILE_PATH="coverage/flask_demo$.coverage" NAME="查询车票信息 Coverage Results" MODIFIED="1578026329448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/test" />
-    <SUITE FILE_PATH="coverage/flask_demo$test7.coverage" NAME="test7 Coverage Results" MODIFIED="1578410382021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
-    <SUITE FILE_PATH="coverage/flask_demo$get_city.coverage" NAME="get_city Coverage Results" MODIFIED="1577952012061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
     <SUITE FILE_PATH="coverage/flask_demo$select_ticket_info.coverage" NAME="select_ticket_info Coverage Results" MODIFIED="1577807023517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/init" />
-    <SUITE FILE_PATH="coverage/flask_demo$emailConf.coverage" NAME="emailConf Coverage Results" MODIFIED="1577947742702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
-    <SUITE FILE_PATH="coverage/flask_demo$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1577952201921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test7" />
+    <SUITE FILE_PATH="coverage/flask_demo$gupiao.coverage" NAME="gupiao Coverage Results" MODIFIED="1577763977405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
+    <SUITE FILE_PATH="coverage/flask_demo$gupiao_app.coverage" NAME="gupiao_app Coverage Results" MODIFIED="1577764781332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
+    <SUITE FILE_PATH="coverage/flask_demo$.coverage" NAME="查询车票信息 Coverage Results" MODIFIED="1578026329448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/test" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1611713046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="2" />
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -74,13 +70,13 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="218" />
-          <entry key="py" value="3" />
+          <entry key="py" value="194" />
           <entry key="txt" value="75" />
         </counts>
       </usages-collector>
@@ -88,7 +84,7 @@
         <counts>
           <entry key="HTML" value="218" />
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="194" />
         </counts>
       </usages-collector>
     </session>
@@ -181,7 +177,39 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo25/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <marker date="1578548320230" expanded="true" signature="118:119" ph="..." />
+                <marker date="1578548320230" expanded="true" signature="118:124" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo24/test11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo24/test8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -216,7 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo19/demo1.py" />
         <option value="$PROJECT_DIR$/demo18/test2.py" />
         <option value="$PROJECT_DIR$/demo19/demo2.py" />
         <option value="$PROJECT_DIR$/demo19/demo3.py" />
@@ -267,6 +294,7 @@
         <option value="$PROJECT_DIR$/demo24/test10.py" />
         <option value="$PROJECT_DIR$/demo24/test11.py" />
         <option value="$PROJECT_DIR$/demo24/test9.py" />
+        <option value="$PROJECT_DIR$/demo25/test1.py" />
       </list>
     </option>
   </component>
@@ -276,9 +304,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="407" />
-    <option name="y" value="131" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="681" />
+    <option name="y" value="295" />
     <option name="width" value="1390" />
     <option name="height" value="820" />
   </component>
@@ -290,6 +318,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,13 +329,17 @@
             <path>
               <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo24" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo25" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,8 +373,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test11">
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test1 (1)">
+    <configuration name="test1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,12 +382,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo25" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo24/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo25/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,19 +485,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test1" />
       <item itemvalue="Python.test8 (1)" />
       <item itemvalue="Python.test9" />
       <item itemvalue="Python.test10" />
       <item itemvalue="Python.test11" />
+      <item itemvalue="Python.test1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test1 (1)" />
         <item itemvalue="Python.test11" />
         <item itemvalue="Python.test10" />
         <item itemvalue="Python.test9" />
         <item itemvalue="Python.test8 (1)" />
-        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -511,14 +544,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="105" width="1112" height="656" extended-state="0" />
+    <frame x="668" y="102" width="1390" height="820" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.18690702" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.18916914" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.18690702" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40726578" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4065934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40160644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -527,7 +561,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41873804" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.41758242" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -592,13 +626,6 @@
     <SUITE FILE_PATH="coverage/1$app__4_.coverage" NAME="app (4) Coverage Results" MODIFIED="1575622227604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo22/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="62" selection-start-line="62" selection-end-line="69" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo22/test4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -613,13 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/pandas/core/indexes/datetimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="1427" column="13" lean-forward="true" selection-start-line="1427" selection-start-column="13" selection-end-line="1427" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/python_venv/local/Lib/site-packages/pandas/core/indexes/datetimes.py" />
     <entry file="file://$PROJECT_DIR$/demo22/test6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -648,20 +669,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="2131" column="4" selection-start-line="2131" selection-start-column="4" selection-end-line="2131" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="2734" column="4" selection-start-line="2734" selection-start-column="4" selection-end-line="2734" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/python_venv/local/Lib/site-packages/matplotlib/pyplot.py" />
+    <entry file="file://F:/python_venv/local/Lib/site-packages/PIL/Image.py" />
     <entry file="file://$PROJECT_DIR$/demo23/test3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
@@ -690,27 +699,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-213993125/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-849">
-          <caret line="1771" column="52" selection-start-line="1771" selection-start-column="13" selection-end-line="1771" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="4319" column="2" selection-start-line="4319" selection-start-column="2" selection-end-line="4319" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="145" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-213993125/numpy/random/mtrand.py" />
+    <entry file="file://F:/python_venv/local/Lib/site-packages/matplotlib/axes/_axes.py" />
+    <entry file="file://F:/python_venv/local/Lib/site-packages/numpy/core/multiarray.py" />
     <entry file="file://$PROJECT_DIR$/demo23/8.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -848,22 +839,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1305">
-          <caret line="8136" column="13" lean-forward="true" selection-start-line="8136" selection-start-column="13" selection-end-line="8136" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/python_venv/local/Lib/site-packages/pandas/core/generic.py" />
     <entry file="file://$PROJECT_DIR$/demo24/3.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/test8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo24/courses.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -872,16 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/test11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="16" lean-forward="true" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -889,6 +857,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
           <caret selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo24/test11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo24/test8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo25/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <marker date="1578548320230" expanded="true" signature="118:119" ph="..." />
+            <marker date="1578548320230" expanded="true" signature="118:124" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
