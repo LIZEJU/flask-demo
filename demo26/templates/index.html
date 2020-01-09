@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+<ul>
+   {% for i in courses %}
+    <li>{{ i.name }} {{i.created_at}} {{ i.author.username}}</li>
+    {% endfor %}
+</ul>
+
+</body>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</html>
+
