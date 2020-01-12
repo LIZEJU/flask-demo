@@ -3,6 +3,13 @@ from simpledu.config import  configs
 from simpledu.modes import db , Course
 app = Flask(__name__)
 
+def register_blueprints(app):
+    from simpledu.handlers import front, course, admin
+    app.register_blueprint(front)
+    app.register_blueprint(course)
+    app.register_blueprint(admin)
+
+
 def create_app(config):
     """ 可以根据传入的 config 名称，加载不同的配置
        """
@@ -10,18 +17,12 @@ def create_app(config):
     app.config.from_object(configs.get(config))
     # SQLAlchemy 的初始化方式改为使用 init_app
     db.init_app(app)
-
+    register_blueprints(app)
     # 路由函数暂时写在这里，后面会介绍使用 Flask 的 Blueprint 实现
     # 路由的模块化
-    @app.route('/')
-    def index():
-        courses = Course.query.all()
-        return  render_template('index.html',courses=courses)
+    return app
 
-    @app.route('/admin')
-    def admin_index():
-        return  'admin'
-    return  app
+
 
 app = create_app('development')
 
