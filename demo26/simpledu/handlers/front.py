@@ -1,4 +1,4 @@
-from flask import Blueprint , render_template , abort , flash , redirect , url_for
+from flask import Blueprint , render_template , abort , flash , redirect , url_for ,request,current_app
 from simpledu.modes import Course ,User
 from demo26.simpledu.forms import RegisterForm,LoginForm
 from flask_login import login_user , logout_user , login_required
@@ -8,14 +8,21 @@ front = Blueprint('front',__name__)
 
 @front.route('/')
 def index():
-    courses = Course.query.all()
-    return render_template('index.html', courses=courses)
+    # 获取参数page传过来的值
+    page = request.args.get('page',default=1,type=int)
+    pagination = Course.query.paginate(
+        page=page,
+        per_page=current_app.config['INDEX_PER_PAGE'],
+        error_out=False
+    )
+    # courses = Course.query.all()
+    return render_template('index.html', pagination=pagination)
 
 @front.route('/login',methods=['GET','POST'])
 def login():
     form = LoginForm()
     if form.validate_on_submit():
-        user = User.query.filter_by(email=form.email.data).first()
+        user = User.query.filter_by(username=form.username.data).first()
         login_user(user,form.remember_me.data)
         flash('登录成功', 'success')
         return redirect(url_for('.index'))

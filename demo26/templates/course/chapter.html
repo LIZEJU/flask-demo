@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ chapter.name }}
+{% endblock %}
+
+{% block css %}
+<!-- 使用 super 语法继承父 block 的 css 文件-->
+{{ super() }}
+<!-- 引入 video-js.css CDN 文件 -->
+<!--<link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">-->
+
+<link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+{% endblock %}
+
+{% block body %}
+    <!--&lt;!&ndash; 视频要用 video 标签包裹 &ndash;&gt;-->
+    <!--<video class="video-js vjs-16-9 vjs-big-play-centered" data-setup='{"fluid":true, "controls": true}'>-->
+  <!--&lt;!&ndash; 视频地址放入source 中，并设置好视频的类型 &ndash;&gt;-->
+  <!--<source src="{{ chapter.video_url }}" type='video/mp4'>-->
+<!--</video>-->
+    <div class="row">
+        <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            width="1000px"
+            height="500px"
+            poster="MY_VIDEO_POSTER.jpg"
+            data-setup="{}"
+          >
+            <source src="{{ chapter.video_url }}" type="video/mp4" />
+            <!--<source src="MY_VIDEO.webm" type="video/webm" />-->
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video
+              </a>
+            </p>
+        </video>
+    </div>
+{% endblock %}
+
+{% block tail_js %}
+{{ super() }}
+<!--<script src="http://vjs.zencdn.net/6.2.8/video.js"></script>-->
+ <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+
+{% endblock %}

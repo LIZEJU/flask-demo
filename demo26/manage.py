@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from flask import Flask , render_template
 from demo26.simpledu.config import  configs
 from demo26.simpledu.modes import db , Course ,User

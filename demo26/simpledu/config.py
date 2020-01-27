@@ -1,6 +1,14 @@
+# -*- coding:utf-8 -*-
+
+
 class BaseConfig(object):
     """ 配置基类 """
     SECRET_KEY = 'makesure to set a very secret key'
+    # 每页显示的数量
+    INDEX_PER_PAGE = 9
+
+    # 后台每页显示的数量
+    ADMIN_PER_PAGE = 6
 
 class DevelopmentConfig(BaseConfig):
     """ 开发环境配置 """
