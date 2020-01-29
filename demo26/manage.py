@@ -7,11 +7,12 @@ from flask_login import  LoginManager
 app = Flask(__name__)
 
 def register_blueprints(app):
-    from simpledu.handlers import front, course, admin , users
+    from simpledu.handlers import front, course, admin , users,live
     app.register_blueprint(front)
     app.register_blueprint(course)
     app.register_blueprint(admin)
     app.register_blueprint(users)
+    app.register_blueprint(live)
 
 
 def create_app(config):

@@ -113,3 +113,23 @@ class Chapter(Base):
     @property
     def url(self):
         return url_for('course.chapter', course_id=self.course.id, chapter_id=self.id)
+
+class Live(Base):
+
+    __tablename__ = 'live'
+
+    id = db.Column(db.INTEGER,primary_key=True)
+    name = db.Column(db.String(128),unique=True,index=True)
+    description = db.Column(db.String(256))
+
+    # 关联到章节
+    # chapter_id = db.Column(db.Integer,db.ForeignKey('chapter.id',ondelete='CASCADE'))
+    # chapter = db.relationship('Chapter',uselist=False)
+
+    @property
+    def chapters(self):
+        lives = Live.query.all()
+        lives_list = []
+        for i in lives:
+            lives_list.append(i.id)
+        return lives_list

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Live{% endblock %}
+{% block css %}
+  <!--引入播放器样式-->
+    <link href="http://vjs.zencdn.net/5.19/video-js.min.css" rel="stylesheet">
+    <!--引入播放器js-->
+    <script src="http://vjs.zencdn.net/5.19/video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-flash@2/dist/videojs-flash.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="row">
+  <div class="col-md-9">
+      <h1>{{ live.name }}</h1>
+    <video id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay="autoplay"
+      width="500" height="400" data-setup='{}'>
+    <!--src: 规定媒体文件的 URL  type:规定媒体资源的类型-->
+    <source src='rtmp://116.62.78.172:81/myapp/test'  controls="controls" type='rtmp/flv'/>
+</video>
+  </div>
+
+  <div class="col-md-3">
+  </div>
+</div>
+{% endblock %}
+
+{% block tail_js %}
+{{ super() }}
+
+<script type="text/javascript">
+    // 设置flash路径,用于在videojs发现浏览器不支持HTML5播放器的时候自动唤起flash播放器
+    videojs.options.flash.swf = 'https://cdn.bootcss.com/videojs-swf/5.4.1/video-js.swf';
+    var player = videojs('my-player'); //my-player为页面video元素的id
+    player.play(); //播放
+    player.pause()
+
+//    1. 播放   player.play()
+//    2. 停止   player.pause()
+//    3. 暂停   player.pause()
+</script>
+{% endblock %}

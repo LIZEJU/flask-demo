@@ -1,7 +1,7 @@
 from flask_wtf import  FlaskForm
-from wtforms import  StringField , PasswordField, SubmitField , BooleanField ,ValidationError ,TextAreaField ,IntegerField
-from wtforms.validators import  Length , Email, EqualTo , DataRequired ,URL ,NumberRange
-from simpledu.modes import  User  ,db ,Course
+from wtforms import  StringField , PasswordField, SubmitField , BooleanField ,ValidationError ,TextAreaField ,IntegerField,SelectField
+from wtforms.validators import  Length , Email, EqualTo , DataRequired ,URL ,NumberRange,AnyOf
+from simpledu.modes import  User  ,db ,Course , Live
 from flask import  flash
 import re
 
@@ -81,4 +81,70 @@ class CourseForm(FlaskForm):
         db.session.add(course)
         db.session.commit()
         return course
+
+class UserForm(FlaskForm):
+    username = StringField('用户名', validators=[DataRequired(), Length(3, 24)])
+    email = StringField('邮箱', validators=[DataRequired(), Email()])
+    role = SelectField('角色', validators=[DataRequired()],choices=[(10,'普通用户'),(20,'客服人员'),(30,'管理人员')],default = 10,coerce=int)
+    job = StringField('工作', validators=[DataRequired(),Length(1, 24)])
+    password = PasswordField('密码', validators=[DataRequired(), Length(6, 24, message='密码长度时6位到24位')])
+
+    submit = SubmitField('提交')
+
+    def validate_username(self,field):
+        if  User.query.filter_by(username=field.data).first():
+            raise  ValidationError('用户已经存在，不能创建')
+
+    def create_user(self):
+        user = User()
+        # 使用课程表单数据填充course对象
+        self.populate_obj(user)
+        db.session.add(user)
+        db.session.commit()
+        return user
+
+    def update_user(self,user):
+        self.populate_obj(user)
+        db.session.add(user)
+        db.session.commit()
+        return user
+
+
+class UserForm1(FlaskForm):
+    username = StringField('用户名', validators=[DataRequired(), Length(3, 24)])
+    email = StringField('邮箱', validators=[DataRequired(), Email()])
+    role = SelectField('角色', validators=[DataRequired()],choices=[(10,'普通用户'),(20,'客服人员'),(30,'管理人员')],default = 10,coerce=int)
+    job = StringField('工作', validators=[DataRequired(),Length(1, 24)])
+    password = PasswordField('密码', validators=[DataRequired(), Length(6, 24, message='密码长度时6位到24位')])
+
+    submit = SubmitField('提交')
+
+    def update_user(self,user):
+        self.populate_obj(user)
+        db.session.add(user)
+        db.session.commit()
+        return user
+
+
+class LiveForm(FlaskForm):
+    name = StringField('名称', validators=[DataRequired(), Length(3, 24)])
+    description = StringField('直播简介', validators=[DataRequired(), Length(3, 24)])
+
+    # chapter_id = IntegerField('章节', validators=[DataRequired(), NumberRange(min=1, message='无效的用户的id')],default=1)
+
+    # chapter_id = SelectField('章节', validators=[DataRequired()], choices=Live.chapters,
+    #                    default=Live.chapters[0], coerce=int)
+    submit = SubmitField('提交')
+
+
+    # def validate_chapter_id(self,field):
+    #     if   Live.query.filter_by(chapter_id=field.data).first():
+    #         raise  ValidationError('章节id不存在')
+    def create_live(self):
+        live = Live()
+        # 使用课程表单数据填充course对象
+        self.populate_obj(live)
+        db.session.add(live)
+        db.session.commit()
+        return live
 
