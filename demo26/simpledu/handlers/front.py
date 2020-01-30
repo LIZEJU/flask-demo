@@ -1,6 +1,6 @@
 from flask import Blueprint , render_template , abort , flash , redirect , url_for ,request,current_app
 from simpledu.modes import Course ,User
-from demo26.simpledu.forms import RegisterForm,LoginForm
+from simpledu.forms import RegisterForm,LoginForm
 from flask_login import login_user , logout_user , login_required
 
 front = Blueprint('front',__name__)

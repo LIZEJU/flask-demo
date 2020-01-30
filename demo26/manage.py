@@ -1,18 +1,22 @@
 # -*- coding:utf-8 -*-
 from flask import Flask , render_template
-from demo26.simpledu.config import  configs
-from demo26.simpledu.modes import db , Course ,User
+from simpledu.config import  configs
+from simpledu.modes import db , Course ,User
 from flask_migrate import Migrate
 from flask_login import  LoginManager
+from flask_sockets import Sockets
+
 app = Flask(__name__)
 
 def register_blueprints(app):
-    from simpledu.handlers import front, course, admin , users,live
+    from simpledu.handlers import front, course, admin , users,live,ws
     app.register_blueprint(front)
     app.register_blueprint(course)
     app.register_blueprint(admin)
     app.register_blueprint(users)
     app.register_blueprint(live)
+    sockets = Sockets(app)
+    sockets.register_blueprint(ws)
 
 
 def create_app(config):
@@ -52,3 +56,9 @@ app = create_app('development')
 
 if __name__ == '__main__':
     app.run(debug=True)
+    # from gevent import pywsgi
+    # from geventwebsocket.handler import WebSocketHandler
+    #
+    # server = pywsgi.WSGIServer(('0.0.0.0', 5000), app, handler_class=WebSocketHandler)
+    # print('server start')
+    # server.serve_forever()

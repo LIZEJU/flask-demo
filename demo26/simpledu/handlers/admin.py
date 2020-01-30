@@ -1,7 +1,7 @@
 from flask import Blueprint , render_template , request,current_app , flash , redirect , url_for
 from simpledu.decorators import admin_required
-from simpledu.modes import Course ,db ,User,Live
-from simpledu.forms import CourseForm ,UserForm ,UserForm1 ,LiveForm
+from simpledu.modes import Course ,db ,User,Live , Message
+from simpledu.forms import CourseForm ,UserForm ,UserForm1 ,LiveForm ,MessageForm
 
 admin = Blueprint('admin',__name__,url_prefix='/admins')
 
@@ -129,3 +129,39 @@ def delete_live(live_id):
     db.session.commit()
     flash('{} 删除成成'.format(live.name),'success')
     return redirect(url_for('admin.lives'))
+
+
+
+
+@admin.route('/messages')
+@admin_required
+def messages():
+    page = request.args.get('page',default=1,type=int)
+    pagination = Message.query.paginate(
+        page=page,
+        per_page=current_app.config['ADMIN_PER_PAGE'],
+        error_out=False
+    )
+    return  render_template('admin/messages.html',pagination=pagination)
+
+
+@admin.route('/message/create',methods=['GET','POST'])
+@admin_required
+def create_message():
+    form = MessageForm()
+    if form.validate_on_submit():
+        form.create_message()
+        flash('消息创建成功','success')
+        return redirect(url_for('.messages'))
+    return render_template('admin/create_messages.html',form=form)
+
+
+
+@admin.route('/message/delete/<int:message_id>',methods=['GET','POST'])
+@admin_required
+def delete_message(message_id):
+    message = Message.query.get_or_404(message_id)
+    db.session.delete(message)
+    db.session.commit()
+    flash('{} 删除成成'.format(message.message),'success')
+    return redirect(url_for('admin.messages'))

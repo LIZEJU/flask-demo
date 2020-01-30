@@ -7,27 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32a01faa-2ab7-415d-9c2f-32643d68b0c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo26/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo26/scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo26/scripts/crawl_shiyanlou_courses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo26/scripts/generate_test_datas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo26/templates/course/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/正则.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo26/simpledu/handlers/ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo26/templates/admin/create_messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo26/templates/admin/messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo26/test/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo26/test/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo26/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/simpledu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/simpledu/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo26/simpledu/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo26/simpledu/handlers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/handlers/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/simpledu/handlers/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/handlers/course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo26/simpledu/handlers/front.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/handlers/front.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo26/simpledu/modes.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/simpledu/modes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo26/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/templates/admin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo26/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo26/templates/macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/templates/macros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo26/templates/live/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo26/templates/live/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +37,11 @@
     <SUITE FILE_PATH="coverage/flask_demo$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578415360744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
     <SUITE FILE_PATH="coverage/flask_demo$get_city.coverage" NAME="get_city Coverage Results" MODIFIED="1577952012061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
     <SUITE FILE_PATH="coverage/flask_demo$generate_test_datas.coverage" NAME="generate_test_datas Coverage Results" MODIFIED="1580059064110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26/scripts" />
+    <SUITE FILE_PATH="coverage/flask_demo$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1580317781743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26/simpledu/handlers" />
     <SUITE FILE_PATH="coverage/flask_demo$ele.coverage" NAME="ele Coverage Results" MODIFIED="1577331457829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo16" />
     <SUITE FILE_PATH="coverage/flask_demo$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1578561422892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo25" />
     <SUITE FILE_PATH="coverage/flask_demo$emailConf.coverage" NAME="emailConf Coverage Results" MODIFIED="1577947742702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo21/config" />
-    <SUITE FILE_PATH="coverage/flask_demo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1580119635140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26" />
+    <SUITE FILE_PATH="coverage/flask_demo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1580316874528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26" />
     <SUITE FILE_PATH="coverage/flask_demo$demo_app.coverage" NAME="demo_app Coverage Results" MODIFIED="1577632505257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo20" />
     <SUITE FILE_PATH="coverage/flask_demo$test1__1_.coverage" NAME="test1 (1) Coverage Results" MODIFIED="1578557677650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo25" />
     <SUITE FILE_PATH="coverage/flask_demo$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1578559798328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo25" />
@@ -59,7 +55,8 @@
     <SUITE FILE_PATH="coverage/flask_demo$test8.coverage" NAME="test8 Coverage Results" MODIFIED="1578415345895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo23" />
     <SUITE FILE_PATH="coverage/flask_demo$demo1__1_.coverage" NAME="demo1 (1) Coverage Results" MODIFIED="1577267841848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo13" />
     <SUITE FILE_PATH="coverage/flask_demo$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1577593212538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo19" />
-    <SUITE FILE_PATH="coverage/flask_demo$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1580049899492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26/simpledu" />
+    <SUITE FILE_PATH="coverage/flask_demo$__init____3_.coverage" NAME="__init__ (3) Coverage Results" MODIFIED="1580375416128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/flask_demo$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1580317772046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26/simpledu" />
     <SUITE FILE_PATH="coverage/flask_demo$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1578410011337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo24" />
     <SUITE FILE_PATH="coverage/flask_demo$app.coverage" NAME="app Coverage Results" MODIFIED="1578584093548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26" />
     <SUITE FILE_PATH="coverage/flask_demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1577632971732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo20" />
@@ -72,51 +69,53 @@
     <SUITE FILE_PATH="coverage/flask_demo$gupiao.coverage" NAME="gupiao Coverage Results" MODIFIED="1577763977405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$gupiao_app.coverage" NAME="gupiao_app Coverage Results" MODIFIED="1577764781332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo17" />
     <SUITE FILE_PATH="coverage/flask_demo$.coverage" NAME="正则 Coverage Results" MODIFIED="1580044186529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/flask_demo$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1580049912903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26" />
+    <SUITE FILE_PATH="coverage/flask_demo$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1580317757524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo26" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1611713046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="23" />
-          <entry key="js" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="80" />
+          <entry key="js" value="3" />
           <entry key="json" value="1" />
-          <entry key="py" value="53" />
+          <entry key="py" value="107" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="23" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="80" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="53" />
+          <entry key="Python" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1732" />
-          <entry key="py" value="5487" />
+          <entry key="html" value="2848" />
+          <entry key="py" value="8015" />
           <entry key="txt" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1732" />
+          <entry key="HTML" value="2848" />
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="Python" value="5487" />
+          <entry key="Python" value="8015" />
         </counts>
       </usages-collector>
     </session>
@@ -223,128 +222,13 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#96#0" expanded="true" />
-                <marker date="1580119685649" expanded="true" signature="430:435" ph="..." />
-                <marker date="1580119685649" expanded="true" signature="795:800" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/templates/admin/update_course.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/decorators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#86#110#0" expanded="true" />
-                <marker date="1580110549083" expanded="true" signature="236:241" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/templates/admin/courses.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1580116122616" expanded="true" signature="2266:2271" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/static/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/modes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1580109230677" expanded="true" signature="2548:2612" ph="..." />
-                <marker date="1580109230677" expanded="true" signature="2700:2701" ph="..." />
-                <marker date="1580109230677" expanded="true" signature="2700:2706" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/user.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/front.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/course.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <marker date="1580108905383" expanded="true" signature="249:254" ph="..." />
-                <marker date="1580108905383" expanded="true" signature="473:478" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
       </list>
@@ -363,6 +247,7 @@
       <find>深圳</find>
       <find>SZQ</find>
       <find>HZH</find>
+      <find>chapter</find>
     </findStrings>
     <replaceStrings>
       <replace>'name'</replace>
@@ -375,28 +260,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo24/test2.py" />
-        <option value="$PROJECT_DIR$/demo24/test3.py" />
-        <option value="$PROJECT_DIR$/demo24/test4.py" />
-        <option value="$PROJECT_DIR$/demo24/test5.py" />
-        <option value="$PROJECT_DIR$/demo24/test1.py" />
-        <option value="$PROJECT_DIR$/demo24/test6.py" />
-        <option value="$PROJECT_DIR$/demo24/test7.py" />
-        <option value="$PROJECT_DIR$/demo24/test8.py" />
-        <option value="$PROJECT_DIR$/demo24/test10.py" />
-        <option value="$PROJECT_DIR$/demo24/test11.py" />
-        <option value="$PROJECT_DIR$/demo24/test9.py" />
-        <option value="$PROJECT_DIR$/demo25/test1.py" />
-        <option value="$PROJECT_DIR$/demo25/test2.py" />
-        <option value="$PROJECT_DIR$/demo25/test3.py" />
-        <option value="$PROJECT_DIR$/demo25/test4.py" />
-        <option value="$PROJECT_DIR$/demo26/初始化.py" />
-        <option value="$PROJECT_DIR$/demo26/forms.py" />
-        <option value="$PROJECT_DIR$/demo26/config.py" />
-        <option value="$PROJECT_DIR$/demo26/modes.py" />
-        <option value="$PROJECT_DIR$/demo26/app.py" />
         <option value="$PROJECT_DIR$/demo26/templates/user_info.html" />
-        <option value="$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py" />
         <option value="$PROJECT_DIR$/demo26/simpledu/handlers/user.py" />
         <option value="$PROJECT_DIR$/demo26/templates/404.html" />
         <option value="$PROJECT_DIR$/demo26/main.py" />
@@ -404,28 +268,49 @@
         <option value="$PROJECT_DIR$/demo26/templates/register.html" />
         <option value="$PROJECT_DIR$/demo26/templates/login.html" />
         <option value="$PROJECT_DIR$/test/正则.py" />
-        <option value="$PROJECT_DIR$/demo26/manage.py" />
         <option value="$PROJECT_DIR$/demo26/scripts/crawl_shiyanlou_courses.py" />
         <option value="$PROJECT_DIR$/demo26/simpledu/__init__.py" />
         <option value="$PROJECT_DIR$/demo26/__init__.py" />
         <option value="$PROJECT_DIR$/demo26/static/main.css" />
         <option value="$PROJECT_DIR$/demo26/templates/macros.html" />
         <option value="$PROJECT_DIR$/demo26/templates/index.html" />
-        <option value="$PROJECT_DIR$/demo26/simpledu/handlers/front.py" />
         <option value="$PROJECT_DIR$/demo26/scripts/generate_test_datas.py" />
         <option value="$PROJECT_DIR$/demo26/simpledu/handlers/course.py" />
-        <option value="$PROJECT_DIR$/demo26/simpledu/modes.py" />
         <option value="$PROJECT_DIR$/demo26/templates/course/detail.html" />
-        <option value="$PROJECT_DIR$/demo26/templates/course/chapter.html" />
         <option value="$PROJECT_DIR$/demo26/simpledu/decorators.py" />
-        <option value="$PROJECT_DIR$/demo26/templates/base.html" />
         <option value="$PROJECT_DIR$/demo26/simpledu/config.py" />
-        <option value="$PROJECT_DIR$/demo26/simpledu/forms.py" />
-        <option value="$PROJECT_DIR$/demo26/templates/admin/index.html" />
         <option value="$PROJECT_DIR$/demo26/templates/admin/create_course.html" />
         <option value="$PROJECT_DIR$/demo26/templates/admin/update_course.html" />
         <option value="$PROJECT_DIR$/demo26/templates/admin/courses.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/create_user.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/update_user.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/users.html" />
+        <option value="$PROJECT_DIR$/demo26/static/flv.min.js" />
+        <option value="$PROJECT_DIR$/demo26/static/flv.js.html" />
+        <option value="$PROJECT_DIR$/demo26/static/flv.js" />
+        <option value="$PROJECT_DIR$/demo26/templates/course/chapter.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/live/index2.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/live/index3.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/live/index.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/create_live.css" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/create_live.html" />
+        <option value="$PROJECT_DIR$/demo26/simpledu/handlers/live.py" />
+        <option value="$PROJECT_DIR$/demo26/templates/live/lives.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/lives.html" />
+        <option value="$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py" />
+        <option value="$PROJECT_DIR$/demo26/test/1.py" />
+        <option value="$PROJECT_DIR$/demo26/templates/live/index4.html" />
+        <option value="$PROJECT_DIR$/demo26/templates/base.html" />
+        <option value="$PROJECT_DIR$/test/__init__.py" />
+        <option value="$PROJECT_DIR$/demo26/simpledu/handlers/front.py" />
+        <option value="$PROJECT_DIR$/demo26/simpledu/handlers/ws.py" />
+        <option value="$PROJECT_DIR$/demo26/simpledu/modes.py" />
+        <option value="$PROJECT_DIR$/demo26/manage.py" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/demo26/simpledu/forms.py" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/create_messages.html" />
         <option value="$PROJECT_DIR$/demo26/simpledu/handlers/admin.py" />
+        <option value="$PROJECT_DIR$/demo26/templates/admin/messages.html" />
       </list>
     </option>
   </component>
@@ -435,9 +320,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/demo26/static/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/demo26/static/node_modules/flv.js/package.json" />
+      <path value="$PROJECT_DIR$/demo26/static/node_modules/webworkify/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="457" />
-    <option name="y" value="70" />
+    <option name="x" value="356" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="980" />
   </component>
@@ -449,7 +341,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -485,12 +376,6 @@
               <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo26" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo26" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -500,10 +385,21 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test7" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,19 +407,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python_code\flask-demo\demo26\simpledu" />
-      <recent name="$PROJECT_DIR$/demo13/file" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo26/templates/live" />
       <recent name="$PROJECT_DIR$/demo26/templates/admin" />
       <recent name="$PROJECT_DIR$/demo26/templates/course" />
       <recent name="F:\code\python\flask_test\flask-demo\demo26\simpledu\handlers" />
       <recent name="F:\code\python\flask_test\flask-demo\demo24" />
-      <recent name="F:\code\python\flask_test\flask-demo\demo23" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_code\flask-demo\demo26\simpledu" />
+      <recent name="$PROJECT_DIR$/demo13/file" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -538,29 +435,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration name="初始化 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo26/simpledu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo26/simpledu/初始化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.__init__ (3)">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -583,6 +458,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo26/simpledu/handlers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__ (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -597,28 +516,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo26/simpledu/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="generate_test_datas" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo26/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo26/scripts/generate_test_datas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -651,18 +548,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.manage" />
-      <item itemvalue="Python.初始化 (1)" />
-      <item itemvalue="Python.generate_test_datas" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.__init__ (1)" />
+      <item itemvalue="Python.__init__ (2)" />
+      <item itemvalue="Python.__init__ (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.generate_test_datas" />
-        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.__init__ (3)" />
+        <item itemvalue="Python.__init__ (2)" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.初始化 (1)" />
+        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
@@ -709,15 +606,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="457" y="70" width="1680" height="980" extended-state="0" />
-    <editor active="true" />
+    <frame x="356" y="23" width="1680" height="980" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.21978022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.23199023" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.18690702" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45495495" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4527027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6756757" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6815431" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.22222222" />
+      <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.18690702" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45408162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -732,29 +651,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.6815431" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1850095" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32258064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40160644" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4914611" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.4772296" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
@@ -776,6 +672,11 @@
           <url>file://$PROJECT_DIR$/demo26/simpledu/handlers/admin.py</url>
           <line>44</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo26/simpledu/handlers/admin.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -807,132 +708,10 @@
     <SUITE FILE_PATH="coverage/1$app__4_.coverage" NAME="app (4) Coverage Results" MODIFIED="1575622227604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/python_venv/local/Lib/site-packages/pandas/core/generic.py" />
-    <entry file="file://$PROJECT_DIR$/demo24/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/courses.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/test10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/test9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/test11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo24/test8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo25/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo25/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo25/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo25/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="98" selection-end-line="102" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo25/4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo25/GreenhouseGas.csv" />
-    <entry file="file://$PROJECT_DIR$/demo25/test4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="66" column="24" lean-forward="true" selection-end-line="66" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python_venv/local/Lib/site-packages/flask/blueprints.py" />
-    <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/user_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="426" column="22" selection-end-line="459" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/main.py" />
-    <entry file="file://$PROJECT_DIR$/demo26/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/local/lib/python3.7/site-packages/flask_login/utils.py" />
     <entry file="file://$PROJECT_DIR$/test/正则.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -947,33 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="20" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/simpledu/初始化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/simpledu/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#86#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,27 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/course/chapter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="38" column="29" lean-forward="true" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="54" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo26/simpledu/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1030,34 +761,202 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <element signature="e#1443#1450#1" expanded="true" />
-            <element signature="e#2120#2127#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/create_course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo26/static/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/update_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/create_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/update_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/static/flv.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/static/flv.js.html" />
+    <entry file="file://$PROJECT_DIR$/demo26/static/flv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19368">
+          <caret line="12056" lean-forward="true" selection-start-line="12056" selection-end-line="12056" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/course/chapter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/live/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="9" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/live/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="39" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/create_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/live.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/live/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/local/lib/python3.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1934" selection-start-line="1934" selection-end-line="1934" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/test/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/live/lives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/初始化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/live/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="80" column="76" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/front.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="45">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
           <folding>
             <element signature="e#0#103#0" expanded="true" />
           </folding>
@@ -1066,7 +965,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="221">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -1074,82 +973,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/course.py">
+    <entry file="file://$PROJECT_DIR$/demo26/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="46" />
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/local/lib/python3.7/site-packages/sqlalchemy/sql/sqltypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="337" column="6" selection-start-line="337" selection-start-column="6" selection-end-line="337" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/lives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="25" column="30" lean-forward="true" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/create_live.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <marker date="1580108905383" expanded="true" signature="249:254" ph="..." />
-            <marker date="1580108905383" expanded="true" signature="473:478" ph="..." />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo26/simpledu/modes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+        <state relative-caret-position="157">
+          <caret line="138" selection-start-line="138" selection-end-line="143" selection-end-column="57" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1580109230677" expanded="true" signature="2548:2612" ph="..." />
-            <marker date="1580109230677" expanded="true" signature="2700:2701" ph="..." />
-            <marker date="1580109230677" expanded="true" signature="2700:2706" ph="..." />
+            <marker date="1580377307346" expanded="true" signature="4078:4218" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/venv/local/lib/python3.7/site-packages/flask/app.py">
+    <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/ws.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="2448" selection-start-line="2448" selection-end-line="2448" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/simpledu/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="90">
+          <caret line="30" column="110" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="110" />
           <folding>
-            <element signature="e#86#110#0" expanded="true" />
-            <marker date="1580110549083" expanded="true" signature="236:241" ph="..." />
+            <marker date="1580376706252" expanded="true" signature="303:309" ph="..." />
+            <marker date="1580376706252" expanded="true" signature="1003:1013" ph="..." />
+            <marker date="1580376706252" expanded="true" signature="1537:1542" ph="..." />
+            <marker date="1580376706252" expanded="true" signature="1717:1722" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/simpledu/forms.py">
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/create_messages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1580116122616" expanded="true" signature="2266:2271" ph="..." />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/update_course.html">
+    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/messages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo26/templates/admin/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="171">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo26/simpledu/handlers/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        <state relative-caret-position="43">
+          <caret line="157" selection-start-line="157" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#0#96#0" expanded="true" />
-            <marker date="1580119685649" expanded="true" signature="430:435" ph="..." />
-            <marker date="1580119685649" expanded="true" signature="795:800" ph="..." />
+            <marker date="1580378617350" expanded="true" signature="495:500" ph="..." />
+            <marker date="1580378617350" expanded="true" signature="860:865" ph="..." />
           </folding>
         </state>
       </provider>

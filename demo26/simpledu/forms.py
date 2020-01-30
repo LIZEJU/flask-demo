@@ -1,7 +1,7 @@
 from flask_wtf import  FlaskForm
 from wtforms import  StringField , PasswordField, SubmitField , BooleanField ,ValidationError ,TextAreaField ,IntegerField,SelectField
 from wtforms.validators import  Length , Email, EqualTo , DataRequired ,URL ,NumberRange,AnyOf
-from simpledu.modes import  User  ,db ,Course , Live
+from simpledu.modes import  User  ,db ,Course , Live ,Message
 from flask import  flash
 import re
 
@@ -130,7 +130,7 @@ class LiveForm(FlaskForm):
     name = StringField('名称', validators=[DataRequired(), Length(3, 24)])
     description = StringField('直播简介', validators=[DataRequired(), Length(3, 24)])
 
-    # chapter_id = IntegerField('章节', validators=[DataRequired(), NumberRange(min=1, message='无效的用户的id')],default=1)
+    author_id = IntegerField('章节', validators=[DataRequired(), NumberRange(min=1, message='无效的用户的id')],default=1)
 
     # chapter_id = SelectField('章节', validators=[DataRequired()], choices=Live.chapters,
     #                    default=Live.chapters[0], coerce=int)
@@ -148,3 +148,22 @@ class LiveForm(FlaskForm):
         db.session.commit()
         return live
 
+
+from simpledu.handlers.ws import redis
+
+class MessageForm(FlaskForm):
+    message = TextAreaField('消息', validators=[DataRequired()])
+
+    submit = SubmitField('提交')
+
+    def create_message(self):
+
+        message = Message()
+        self.populate_obj(message)
+        db.session.add(message)
+        db.session.commit()
+        message = {'username': '管理员', 'text': '小子们，听好了:{}'.format(message.message)}
+        import json
+        message = json.dumps(message)
+        redis.publish('chat',message)
+        return message

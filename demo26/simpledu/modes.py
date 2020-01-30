@@ -121,6 +121,8 @@ class Live(Base):
     id = db.Column(db.INTEGER,primary_key=True)
     name = db.Column(db.String(128),unique=True,index=True)
     description = db.Column(db.String(256))
+    author_id = db.Column(db.Integer, db.ForeignKey('user.id', ondelete='CASCADE'))
+    author = db.relationship('User', uselist=False)
 
     # 关联到章节
     # chapter_id = db.Column(db.Integer,db.ForeignKey('chapter.id',ondelete='CASCADE'))
@@ -133,3 +135,11 @@ class Live(Base):
         for i in lives:
             lives_list.append(i.id)
         return lives_list
+
+class Message(Base):
+
+    __tablename__ = "message"
+
+    id = db.Column(db.INTEGER,primary_key=True)
+    message = db.Column(db.Text(),unique=True,index=True)
+
